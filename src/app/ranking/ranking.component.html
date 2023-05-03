@@ -1,0 +1,15 @@
+<div class="ranking-container ranking">
+  <h2>Ranking - Maiores Pontuações</h2>
+  <hr>
+  <table>
+    <tr *ngFor="let jogador of ranking; let i = index">
+      <td>{{ i + 1 }}.</td>
+      <td>{{ jogador.player }}</td>
+      <td><span>----------------------------------------------------------------------------------</span></td>
+      <td>{{ jogador.points }}</td>
+    </tr>
+  </table>
+</div>
+
+    
+    
